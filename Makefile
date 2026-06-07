@@ -1,6 +1,8 @@
 CC      = gcc
 CFLAGS  = -Wall -Wextra -std=c11 -Iprerequisites
 
+all: hangman-server hangman-client
+
 hangman-server: hangman-server.c prerequisites/game.c prerequisites/game.h
 	$(CC) $(CFLAGS) -o $@ hangman-server.c prerequisites/game.c -lpthread
 
@@ -10,4 +12,4 @@ hangman-client: hangman-client.c
 clean:
 	rm -f hangman-server hangman-client
 
-.PHONY: clean
+.PHONY: all clean
