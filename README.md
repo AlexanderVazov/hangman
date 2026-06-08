@@ -79,14 +79,14 @@ Once both clients connect the game begins. On each turn the current state of the
 
 ```
 Word: _l_ph_nt
-Incorrect guesses: a, b, z
+Incorrect guesses: b, d, z
 ```
 
 Type a single letter and press Enter to guess. The game continues until you reveal every letter in your opponent's word. You then wait for your opponent to finish, after which the result is displayed:
 
 ```
 YOU WIN! :)
-Your incorrect guesses: a, b, z
+Your incorrect guesses: b, d, z
 Opponent's incorrect guesses: c, d, e, f, g
 ```
 
